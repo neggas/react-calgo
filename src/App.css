@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+
+*,
+html,
+body,
+p {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.author {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #223850;
+}
+
+.author a {
+  font-weight: bold;
+  color: #223850;
+}
+
+#bg-body {
+  transition: all 0.8s ease-in;
+}
+
+/* Grid */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.calc-container {
+  display: grid;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.dot {
+  grid-column: span 2;
+}
+
+.equal {
+  grid-row: span 2;
+}
+
+#buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+}
+
+/* Queries */
+@media screen and (max-width: 601px) {
+  #color-change {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto 1em auto;
+  }
+}

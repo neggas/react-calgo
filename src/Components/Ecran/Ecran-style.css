@@ -1,0 +1,13 @@
+#input {
+  width: 100%;
+  padding-right: 10px;
+  font-size: 3em;
+  text-align: right;
+  height: 2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fdfefe;
+  background-color: #223850;
+  transition: all 0.3s ease-in;
+}

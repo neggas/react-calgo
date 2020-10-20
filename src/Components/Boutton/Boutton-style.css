@@ -1,0 +1,36 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.btn-num {
+  background-color: #223850;
+  color: #6885a7;
+}
+
+.btn-num:hover {
+  background-color: #233b55;
+}
+
+.btn-operator {
+  font-weight: bold;
+  background-color: #233b55;
+  color: #fdfefe;
+}
+
+.btn-operator:hover {
+  background-color: rgb(27, 47, 68) !important;
+}
+
+.dot {
+  grid-column: span 2;
+}
+
+.equal {
+  grid-row: span 2;
+}
